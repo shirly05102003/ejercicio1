@@ -32,7 +32,7 @@ public class Main3 {
             for (int j=0; j<n; j++){
                 System.out.print(matriz[i][j]+"\t");
             }
-            System.out.println();
+            System.out.println("matriz");
         }
 
     }
