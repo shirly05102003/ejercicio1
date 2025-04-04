@@ -49,7 +49,7 @@ public class Main1 {
 
             }
             System.out.println(" el resultado es: " + resultado +"\n");
-            System.out.println(" Buenas noches");
+            System.out.println(" Buenergefgef");
         }
     }
 }
