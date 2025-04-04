@@ -27,7 +27,7 @@ public class Main1 {
             int resultado = 0;
             switch (operaciones) {
                 case 1:
-                    resultado = numero1 + numero2;
+                    resultado = numero2-52;
                     break;
                 case 2:
                     resultado = numero1 - numero2;
