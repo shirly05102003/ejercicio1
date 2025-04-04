@@ -7,19 +7,19 @@ public class Main2 {
         Scanner scammer = new Scanner(System.in);
 
         System.out.println("Ingresa un numero ");
+        int numero0 = scammer.nextInt();
+
+        System.out.println("Ingresa un numero ");
         int numero1 = scammer.nextInt();
 
         System.out.println("Ingresa un numero ");
         int numero2 = scammer.nextInt();
 
-        System.out.println("Ingresa un numero ");
-        int numero3 = scammer.nextInt();
-
-        if (numero1 + numero2 >numero3 && numero2 + numero3 >numero1 && numero1 + numero3 > numero2){
-            if (numero1 == numero2 && numero2 == numero3){
+        if (numero1 + numero1>numero2 && numero1 + numero2 >numero0 && numero0 + numero2 > numero1){
+            if (numero0 == numero1 && numero1 == numero2){
                 System.out.println("Es un triangulo equilatero ");
             }
-            else if (numero1 == numero2 || numero2 == numero3 || numero1 == numero3){
+            else if (numero0 == numero1 || numero1 == numero2 || numero0 == numero2){
                 System.out.println("Es un triangulo Isosceles ");
             }
             else {
