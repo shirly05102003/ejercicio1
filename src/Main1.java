@@ -27,7 +27,7 @@ public class Main1 {
             int resultado = 0;
             switch (operaciones) {
                 case 1:
-                    resultado = numero1 + numero2-numero1+5;
+                    resultado = numero1 + numero2;
                     break;
                 case 2:
                     resultado = numero1 - numero2;
@@ -49,7 +49,7 @@ public class Main1 {
 
             }
             System.out.println(" el resultado es: " + resultado +"\n");
-            System.out.println(" Buenergefgef");
+            System.out.println(" Buewewiuwus6yrtrersgystetfstwsgjhwwgvgswgswtsoches");
         }
     }
 }
